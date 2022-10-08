@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <AssemblyName>ei8.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>ei8.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <PackageId>ei8.$(MSBuildProjectName)</PackageId>
+    <PackageVersion>0.1.2</PackageVersion>
+    <Authors>Elmer Roderick Niem Bool</Authors>
+    <Description>Net</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Initial commit.</PackageReleaseNotes>
+    <PackageTags>net</PackageTags>
+    <Version>0.1.2</Version>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ei8/net</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/ei8/net</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
